@@ -35,6 +35,6 @@ var server = http.createServer(function (request, response) {
 		winston.info(request);
 		response.end();
 	});
-}).listen(55555);
+}).listen(process.env.PORT || 55555);
 
 console.log('Http Request Logger is running.');
