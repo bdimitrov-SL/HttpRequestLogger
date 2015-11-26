@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "description": "HttpRequestLogger",
   "main": "app.js",
-  "author": {
-    "name": "bdimitrov",
-    "email": ""
+  "scripts": {
+    "start": "app.js"
   }
 }
