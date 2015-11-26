@@ -35,6 +35,6 @@ var server = http.createServer(function (request, response) {
 		winston.info(request);
 		response.end();
 	});
-}).listen(80);
+}).listen(55555);
 
 console.log('Http Request Logger is running.');
