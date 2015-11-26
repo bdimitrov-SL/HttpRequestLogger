@@ -5,5 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
+  },
+  "dependencies": {
+	"winston": "2.1.1"
   }
 }
